@@ -62,3 +62,9 @@ NOPQRSTUVWXYZ
 * on the terminal "python ende.py -d flag.txt.en" 
 * this will ask you to enter a password, use the one from "pw.txt"
 * should return the flag "picoCTF{4p0110_1n_7h3_h0us3_aa821c16}"
+
+## Nice netcat...
+* on the terminal enter "nc mercury.picoctf.net 43239"
+* this should give you a long list of numbers, this is in ASCII 
+* open up a browser and go to "dcode.fr/ascii-code" and enter the numbers
+* should return the flag, "picoCTF{g00d_k1tty!_n1c3_k1tty!_7c0821f5}"
