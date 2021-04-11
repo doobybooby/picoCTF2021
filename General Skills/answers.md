@@ -5,15 +5,6 @@
 * on the terminal type, "cat flag"
 * should return, "picoCTF{s4n1ty_v3r1f13d_b5aeb3dd}"
 
-## Mod 26
-* Rot13 aka "Rotate by 13 places" is a subsitution cypher that replaces a letter with a 13th letter after it on the alphabet.
-```
-ABCDEFGHIJKLM
-NOPQRSTUVWXYZ
-```
-* You can go on "https://rot13.com/" to translate (unless you want to do it by hand)
-* should return, "picoCTF{next_time_I'll_try_2_rounds_of_rot13_ZNMldSDw}"
-
 ## Wave A flag
 * first download the file named "warm"
 * on the terminal type, "wget https://mercury.picoctf.net/static/a14be2648c73e3cda5fc8490a2f476af/warm"
