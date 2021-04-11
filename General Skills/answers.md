@@ -1,6 +1,6 @@
 # picoCTF2021-General Skills
 
-## Obident cat 
+## Obident Cat 
 * first download the file named, "flag"
 * on the terminal type, "cat flag"
 * should return, "picoCTF{s4n1ty_v3r1f13d_b5aeb3dd}"
@@ -14,7 +14,7 @@ NOPQRSTUVWXYZ
 * You can go on "https://rot13.com/" to translate (unless you want to do it by hand)
 * should return, "picoCTF{next_time_I'll_try_2_rounds_of_rot13_ZNMldSDw}"
 
-## Wave a flag
+## Wave A flag
 * first download the file named "warm"
 * on the terminal type, "wget https://mercury.picoctf.net/static/a14be2648c73e3cda5fc8490a2f476af/warm"
 * Turn the "warm" file into an executable, "chmod 744 warm" 
@@ -34,7 +34,7 @@ NOPQRSTUVWXYZ
 * if you type, "ls" you should see, "3of3.flag.txt"
 * if you add up all the flags it should read, "picoCTF{xxsh_0ut_0f_\/\/4t3r5190b070}"
 
-## static aint always noise
+## Atatic Ain't Always Noise
 * first download the file named "static"
 * on the terminl, "cat static"
 * in the middle of the gibberish, you can find "picoCTF{d15a5m_t34s3r_1e6a7731}"
