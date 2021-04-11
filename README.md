@@ -18,7 +18,7 @@ NOPQRSTUVWXYZ
 
 ## Wave a flag
 * first download the file named "warm"
-* on the terminal type, "$ wget https://mercury.picoctf.net/static/a14be2648c73e3cda5fc8490a2f476af/warm"
+* on the terminal type, "wget https://mercury.picoctf.net/static/a14be2648c73e3cda5fc8490a2f476af/warm"
 * Turn the "warm" file into an executable, "chmod 744 warm" 
 * execute "warm", "./warm"
 * should return "Hello user! Pass me a -h to learn what I can do!
@@ -38,4 +38,29 @@ NOPQRSTUVWXYZ
 
 ## static aint always noise
 * first download the file named "static"
-* 
+* on the terminl, "cat static"
+* in the middle of the gibberish, you can find "picoCTF{d15a5m_t34s3r_1e6a7731}"
+
+## Tab, Tab, Attack
+* first donwload the file named "Addadshashanammu.zip"
+* on the terminal unzip the file "unzip Addadshashanammu.zip"
+* FROM NOW ON YOU SHOULD USE THE [TAB] BUTTON TO AUTOCOMPLETE INSTEAD OF TYPING THE GIBBERISH NAME
+* on the terminal, "cd (tab)"
+* then, "cd (tab)"
+* then, "cd (tab)"
+* then, "cd (tab)"
+* then, "cd (tab)"
+* then, "cd (tab)"
+* then, "cd (tab)"
+* then, "cat (tab)"
+* the file might look like gibberish, but in the middle of the gibberish you can find the flag "picoCTF{l335t!_524e3dc4"
+
+## Python Wrangling
+* first you should download "ende.py" "flag.txt.en" "pw.txt"
+* on the terminal run "wget https://mercury.picoctf.net/static/8e33ede04d02f3765b8c6a6e24d72733/ende.py"
+* if you read the "ende.py" it says to use "-e" "-d" "-h" //probably for "encrypt" "decrypt" "help"
+* The description says "Can you run this Python script using this password to get the flag?"
+* Copy paste the password from pw.txt
+* on the terminal "python ende.py -d flag.txt.en" 
+* this will ask you to enter a password, use the one from "pw.txt"
+* should return the flag "picoCTF{4p0110_1n_7h3_h0us3_aa821c16}"
